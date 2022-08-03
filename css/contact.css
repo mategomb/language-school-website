@@ -1,0 +1,7 @@
+.contact {
+	background-image: linear-gradient(hsla(0, 0%, 100%, 0.9), hsla(0, 0%, 100%, 0.9)), url("../img/232.jpg");
+}
+
+.contact .textarea {
+	resize: none;
+}

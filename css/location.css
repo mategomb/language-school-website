@@ -1,0 +1,24 @@
+.location .map {
+	border: 1px solid gray;
+	border-radius: 0.5rem;
+	display: block;
+	height: 25rem;
+	margin: 0 auto;
+	padding: 0.3rem;
+	width: 100%;
+}
+
+.location .carousel-inner {
+	border-radius: 0.5rem;
+}
+
+.location .carousel-item {
+	height: 20rem;
+}
+
+.location .carousel-image {
+	height: 100%;
+	width: 100%;
+	-o-object-fit: cover;
+	object-fit: cover;
+}
