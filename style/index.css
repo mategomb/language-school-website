@@ -1,9 +1,9 @@
-.home {
+body {
 	background-image: linear-gradient(hsla(0, 0%, 100%, 0.4), hsla(0, 0%, 100%, 0.4)), url("../assets/888.jpg");
 	height: 100vh;
 }
 
-.home .caption {
+.banner {
 	max-width: 100%;
 	position: absolute;
 	text-transform: uppercase;
@@ -11,7 +11,7 @@
 	width: 100%;
 }
 
-.home .caption h1 {
+.title {
 	font-size: 2rem;
 	font-weight: 700;
 	letter-spacing: 0.3rem;
@@ -20,31 +20,31 @@
 }
 
 @media (min-width: 768px) {
-	.home .caption h1 {
+	.title {
 		font-size: 2.5rem;
 	}
 }
 
 @media (min-width: 992px) {
-	.home .caption h1 {
+	.title {
 		font-size: 3.3rem;
 	}
 }
 
-.home .caption h3 {
+.intro {
 	font-size: 1.2rem;
 	text-shadow: 0.1rem 0.1rem 0.5rem hsl(0, 0, 0%);
 	padding-bottom: 1.7rem;
 }
 
 @media (min-width: 768px) {
-	.home .caption h3 {
+	.intro {
 		font-size: 1.5rem;
 	}
 }
 
 @media (min-width: 992px) {
-	.home .caption h3 {
+	.intro {
 		font-size: 2rem;
 	}
 }

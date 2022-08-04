@@ -1,5 +1,5 @@
-.location .map {
-	border: 1px solid gray;
+.map {
+	border: 1px solid hsl(0, 0%, 50%);
 	border-radius: 0.5rem;
 	display: block;
 	height: 25rem;
@@ -8,15 +8,20 @@
 	width: 100%;
 }
 
-.location .carousel-inner {
+.icon-marker {
+	height: 1.9rem;
+	margin-top: -0.9rem;
+}
+
+.carousel-inner {
 	border-radius: 0.5rem;
 }
 
-.location .carousel-item {
+.carousel-item {
 	height: 20rem;
 }
 
-.location .carousel-image {
+.carousel-image {
 	height: 100%;
 	width: 100%;
 	-o-object-fit: cover;

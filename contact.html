@@ -10,10 +10,10 @@
 		<link rel="stylesheet" href="style/shared.css" />
 		<link rel="stylesheet" href="style/contact.css" />
 	</head>
-	<body class="contact bg-light" id="contact">
+	<body class="bg-light" id="contact">
 		<nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark shadow">
 			<a class="navbar-brand" href="index.html">
-				<img class="navbar-icon" src="assets/graduation-cap.svg" alt="graduation cap" />
+				<img class="icon-cap" src="assets/graduation-cap.svg" alt="graduation cap" />
 				<span>Pilisvölgyi</span>
 			</a>
 			<button
@@ -72,25 +72,16 @@
 						</div>
 					</div>
 					<div class="form-group mb-3">
-						<label for="email">
-							Email címe
-							<span class="text-muted"></span>
-						</label>
+						<label for="email">Email címe</label>
 						<input type="email" class="form-control" id="email" maxlength="64" required />
 					</div>
 					<div class="form-group">
 						<label for="FormControlTextarea">Üzenet</label>
-						<textarea
-							class="form-control textarea"
-							id="FormControlTextarea"
-							rows="8"
-							maxlength="512"
-							required
-						></textarea>
+						<textarea class="form-control" id="FormControlTextarea" rows="8" maxlength="512" required></textarea>
 					</div>
 					<button class="btn btn-secondary btn-block btn-lg mx-auto shadow" type="submit" role="button">
 						<span>Elküldés</span>
-						<img src="assets/envelope.svg" style="height: 1.1rem; margin-top: -0.2rem" alt="envelope" />
+						<img class="icon-envelope" src="assets/envelope.svg" alt="envelope" />
 					</button>
 				</form>
 			</div>

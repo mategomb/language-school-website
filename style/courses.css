@@ -1,7 +1,12 @@
-.courses {
+body {
 	background-image: linear-gradient(hsla(0, 0%, 100%, 0.7), hsla(0, 0%, 100%, 0.7)), url("../assets/232.jpg");
 }
 
-.courses .card {
+.card {
 	min-width: 220px;
+}
+
+.icon-flag {
+	height: 1.5rem;
+	margin-top: -2rem;
 }

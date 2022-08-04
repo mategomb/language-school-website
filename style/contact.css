@@ -1,7 +1,8 @@
-.contact {
+body {
 	background-image: linear-gradient(hsla(0, 0%, 100%, 0.9), hsla(0, 0%, 100%, 0.9)), url("../assets/232.jpg");
 }
 
-.contact .textarea {
-	resize: none;
+.icon-envelope {
+	height: 1.1rem;
+	margin-top: -0.2rem;
 }
