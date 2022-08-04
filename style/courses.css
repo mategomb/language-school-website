@@ -1,0 +1,7 @@
+.courses {
+	background-image: linear-gradient(hsla(0, 0%, 100%, 0.7), hsla(0, 0%, 100%, 0.7)), url("../assets/232.jpg");
+}
+
+.courses .card {
+	min-width: 220px;
+}

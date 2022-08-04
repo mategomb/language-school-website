@@ -1,5 +1,5 @@
 .home {
-	background-image: linear-gradient(hsla(0, 0%, 100%, 0.4), hsla(0, 0%, 100%, 0.4)), url("../img/888.jpg");
+	background-image: linear-gradient(hsla(0, 0%, 100%, 0.4), hsla(0, 0%, 100%, 0.4)), url("../assets/888.jpg");
 	height: 100vh;
 }
 

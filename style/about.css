@@ -1,0 +1,7 @@
+.about {
+	background-image: linear-gradient(hsla(0, 0%, 100%, 0.7), hsla(0, 0%, 100%, 0.7)), url("../assets/518.jpg");
+}
+
+.about .blockquote-footer {
+	color: hsl(0, 0, 0%);
+}
